@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RH Kosmetics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="imagens/logo.png" alt="Logo" class="logo">
+            <span class="text">RH Kosmetics</span>
+        </div>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="dropdown">Perfumes Masculinos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="masculino55.html" target="_blank">55 ml</a></li>
+                        <li><a href="masculino100.html" target="_blank">100 ml</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown">Perfumes Femininos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="feminino55.html" target="_blank">55 ml</a></li>
+                        <li><a href="feminino100.html" target="_blank">100 ml</a></li>
+                    </ul>
+                </li>
+                <li><a href="hidratantes.html" target="_blank">Hidratantes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mais-vendidos">
+        <h2>Linha completa</h2>
+        <div class="produtocontainer" id="produtos">
+            <div class="produto" data-nome="Perfume Luxo">
+                <img src="imagens/perfume.png" alt="Perfume Luxo">
+                <h3>Perfume Luxo</h3>
+                
+                <label for="volumeLuxo">Volume:</label>
+                <select id="volumeLuxo" onchange="atualizarPreco('precoLuxo', this.value)">
+                    <option value="299" style="text-align: center;">50 ml</option>
+                    <option value="399" style="text-align: center;">100 ml</option>
+                </select>
+                
+                <p class="preco" id="precoLuxo">R$ 299,00</p>
+                <p>Código: 001</p>
+                <a href="https://wa.me/5583*numero*?text=Olá, tenho interesse no Perfume Luxo. Código 001." target="_blank" class="whatsapp-btn">Falar com Vendedor</a>
+            </div>
+    
+            <div class="produto" data-nome="Perfume Glamour">
+                <img src="imagens/perfume2.png" alt="Perfume Glamour">
+                <h3>Perfume Glamour</h3>
+                
+                <label for="volumeGlamour">Volume:</label>
+                <select id="volumeGlamour" onchange="atualizarPreco('precoGlamour', this.value)">
+                    <option value="299" style="text-align: center;">50 ml</option>
+                    <option value="399" style="text-align: center;">100 ml</option>
+                </select>
+                
+                <p class="preco" id="precoGlamour">R$ 299,00</p>
+                <p>Código: 002</p>
+                <a href="https://wa.me/5583*numero*?text=Olá, tenho interesse no Perfume Glamour. Código 002." target="_blank" class="whatsapp-btn">Falar com Vendedor</a>
+            </div>
+    
+            <div class="produto" data-nome="Perfume x 1">
+                <img src="imagens/perfume2.jpg" alt="Perfume x">
+                <h3>Perfume x</h3>
+                
+                <label for="volumeX">Volume:</label>
+                <select id="volumeX" onchange="atualizarPreco('precoX', this.value)">
+                    <option value="100" style="text-align: center;">50 ml</option>
+                    <option value="200" style="text-align: center;">100 ml</option>
+                </select>
+                
+                <p class="preco" id="precoX">R$ 100,00</p>
+                <p>Código: 003</p>
+                <a href="https://wa.me/5583*numero*?text=Olá, tenho interesse no Perfume x. Código 003." target="_blank" class="whatsapp-btn">Falar com Vendedor</a>
+            </div>
+    
+            <div class="produto" data-nome="Perfume x 2">
+                <img src="imagens/perfume3.jpg" alt="Perfume x">
+                <h3>Perfume x</h3>
+                
+                <label for="volumeX">Volume:</label>
+                <select id="volumeX" onchange="atualizarPreco('precoX1', this.value)">
+                    <option value="100" style="text-align: center;">50 ml</option>
+                    <option value="200" style="text-align: center;">100 ml</option>
+                </select>
+                
+                <p class="preco" id="precoX1">R$ 100,00</p>
+                <p>Código: 004</p>
+                <a href="https://wa.me/5583*numero*?text=Olá, tenho interesse no Perfume x. Código 004." target="_blank" class="whatsapp-btn">Falar com Vendedor</a>
+            </div>
+    
+            <div class="produto" data-nome="Perfume x 3">
+                <img src="imagens/perfume4.jpg" alt="Perfume x">
+                <h3>Perfume x</h3>
+                
+                <label for="volumeX">Volume:</label>
+                <select id="volumeX" onchange="atualizarPreco('precoX2', this.value)">
+                    <option value="100" style="text-align: center;">50 ml</option>
+                    <option value="200" style="text-align: center;">100 ml</option>
+                </select>
+                
+                <p class="preco" id="precoX2">R$ 100,00</p>
+                <p>Código: 005</p>
+                <a href="https://wa.me/5583*numero*?text=Olá, tenho interesse no Perfume x. Código 005." target="_blank" class="whatsapp-btn">Falar com Vendedor</a>
+            </div>
+    
+            <div class="produto" data-nome="Perfume x 4">
+                <img src="imagens/perfume4.jpg" alt="Perfume x">
+                <h3>Perfume x</h3>
+                
+                <label for="volumeX">Volume:</label>
+                <select id="volumeX" onchange="atualizarPreco('precoX3', this.value)">
+                    <option value="100" style="text-align: center;">50 ml</option>
+                    <option value="200" style="text-align: center;">100 ml</option>
+                </select>
+                
+                <p class="preco" id="precoX3">R$ 100,00</p>
+                <p>Código: 006</p>
+                <a href="https://wa.me/5583*numero*?text=Olá, tenho interesse no Perfume x. Código 006." target="_blank" class="whatsapp-btn">Falar com Vendedor</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Catálogo de Perfumes</p>
+    </footer>
+
+    <a href="https://wa.me/558399016170" class="whatsapp-btn2" target="_blank" title="Converse conosco no WhatsApp">
+        <img src="imagens/whatsapp-icon.png" alt="WhatsApp">
+    </a>
+    
+    <script src="script/script.js"></script>
+
+</body>
+</html>
